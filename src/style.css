@@ -8,11 +8,26 @@
 } */
 
 @theme {
+<<<<<<< HEAD
   --color-like: red;
   --color-lion: green;
 
   /* --buliding: url(../src/assets/images/building.avif); */
   --building: url(../src/assets/images/building.avif);
+=======
+  --pretendard: "Pretendard Variable", Pretendard, sans-serif;
+  --color-like: red;
+  --color-lion: green;
+  --color-likelion-black: #303033;
+  --color-likelion-red: #B02C20;
+  --color-likelion-green: #58DC76;
+  --color-likelion-silver: #f5f5f5;
+
+  /* --buliding: url(../src/assets/images/building.avif); */
+  --building: url(../src/assets/images/building.avif);
+
+  --autofit: repeat(auto-fit, minmax(240px, 1fr));
+>>>>>>> 119834a451036032f669ecce7f44067961173c4c
 }
 
 @layer components {
